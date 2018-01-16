@@ -61,4 +61,77 @@ body{
 .header .header-img img{
 	margin-top: 0px;
 }
+.header .textblock{
+	margin: 20px;
+	padding: 10px; 
+}
+.header .textblock .title{
+	font-size: 35px;
 
+}
+.header .textblock .text{
+	font-size: 17px;
+}
+.header .textblock hr{
+	margin-top:0px; 
+	border:#55CCDB 1px solid;
+}
+.process{
+	margin:40px;
+}
+.process .process-block{
+	padding: 20px;
+}
+.process .process-block .title{
+	font-size: 20px;
+	text-align: center;
+}
+.process .process-block .text{
+	font-size: 15px;
+	text-align: center;
+}
+.footer{ 
+	background-color: #333;
+	color: #29ABE2;
+	padding-bottom: 10px;
+}
+.footer .title{
+	margin-top: 30px;
+	color: white;
+}
+.footer .text{
+	color: white;
+	padding: 30px;
+}
+.footer ul {
+    list-style:none;
+    padding-left:0;
+}​
+.footer .social ul{
+	list-style:none;
+    padding-left:0;
+}
+.footer .social ul li{
+	display: inline;
+}
+.footer .social ul li img{
+	max-width: 20px;
+}
+.resources{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.resources .textblock{
+	margin-top: 30px; 
+}
+.resources .textblock hr{
+	margin-top:0px; 
+	border:#55CCDB 1.5px solid;
+	margin-right: 50%; 
+}
+.resources .textblock .title{
+	font-size: 30px;
+}
+.resources .textblock .text{
+	font-size: 17px;
+}
