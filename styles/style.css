@@ -1,0 +1,64 @@
+body{
+	font-family: 'Roboto', san-serif;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px; 
+}
+.header{
+	min-height: 100vh;
+	margin:0px;
+	padding: 0px; 
+	/*background-color: #2A7FB8;
+	color:white;*/
+	/*background-color: #fff ;*/
+}
+/*.nav.navbar-nav li a {
+    color: white;
+}*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #55CCDB;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #55CCDB; /*BACKGROUND color for active*/
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: white;
+	text-decoration: none;
+	background-color: transparent;  
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	background-color: transparent; 
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #55CCDB; /*Change active text color here*/
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #55CCDB;
+}
+.header .header-img img{
+	margin-top: 0px;
+}
+
